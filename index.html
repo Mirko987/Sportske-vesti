@@ -2,7 +2,10 @@
 <html>
 <head>
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+   <script
+   			  src="https://code.jquery.com/jquery-3.3.1.js"
+   			  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+   			  crossorigin="anonymous"></script>
 <style>
 header {background: url("http://we-study-in-australia.com/wp-content/uploads/2018/03/Top-best-Football-Players.jpg");
         background-size: cover;
@@ -49,6 +52,9 @@ h1 {text-align: center;
  body {background: lightgray;
 
  }
+ button {text-align: center;
+
+ }
 
 </style>
 
@@ -86,6 +92,13 @@ izvestiti o najnovijim transferima,rezultatima, izjavama i zanimljivostima, nada
   nije uspeo da priredi jos jedno veliko iznenadjenje. naime, u finalu turnira u Torontu, mladi grcki <br>
   igrac porazen je od svetskog broja jedan, Rafaela Nadala, rezultatom 2-0 i to 6-2, 7-6 po setovma.<br></p>
 
+<button>Like</button>
+
+<script>
+$("button").on("click", function() {
+  alert("clicked!")
+});
+</script>
 
 </body>
 
